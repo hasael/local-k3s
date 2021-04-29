@@ -43,7 +43,3 @@ Verify with
 ```
 kubectl get nodes
 ```
-
----
-#raspberrypi #k8s 
-[ansible github](https://github.com/k3s-io/k3s-ansible) 
