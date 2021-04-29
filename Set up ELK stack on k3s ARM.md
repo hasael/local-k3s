@@ -2,7 +2,7 @@
 Set up ELK stack using helm package manager for k8s
 ### Install Helm
 - Download your [desired version](https://github.com/helm/helm/releases)
-- Unpack it (`tar -zxvf`
+- Unpack it `tar -zxvf`
 - Find the `helm` binary in the unpacked directory, and move it to its desired destination (`mv linux-amd64/helm /usr/local/bin/helm`))
 
 ### Clone helm charts
@@ -36,5 +36,5 @@ Log in kibana (using port forward) and from `Management` -> `Create a new index 
 Now all stdout of your pods are searchable
 
 ---
-#arm #k8s 
- [ELK stack install](https://itnext.io/deploy-elastic-stack-on-kubernetes-1-15-using-helm-v3-9105653c7c8), [Helm Install](https://helm.sh/docs/intro/install/) 
+
+Sources: [ELK stack install](https://itnext.io/deploy-elastic-stack-on-kubernetes-1-15-using-helm-v3-9105653c7c8), [Helm Install](https://helm.sh/docs/intro/install/) 
