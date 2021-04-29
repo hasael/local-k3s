@@ -60,7 +60,3 @@ sudo nano /etc/hostname
 ```
 
 restart the pis
-
----
-#raspberrypi 
- [raspberrypi.org](https://www.raspberrypi.org/documentation/installation/installing-images/mac.md) 
