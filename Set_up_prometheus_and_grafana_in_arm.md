@@ -30,6 +30,3 @@ Check created pods with
 ```bash
 kubectl get po -n monitoring
 ```
-
----
-#arm #k8s #k8s 
