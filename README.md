@@ -1,6 +1,6 @@
 # Local K8s
 A local k8s cluster is handy for personal playground and study purposes. It is also useful to abstract infrastructure as a code removing the need to install it locally or through docker.
-I ran it using a cluster of raspberry pis running k3s.
+I ran it using a cluster of raspberry pis running k3s. For the hardware setup I followed the [Pi Dramble](https://www.pidramble.com/wiki) guide.
 
 ## Setting up the cluster
 - Setup the raspberries following the [Raspberry Pi setup](Raspberry_pi_setup.md)
@@ -13,4 +13,4 @@ I ran it using a cluster of raspberry pis running k3s.
 To have a running haskell pod, I used the [base Haskell image](https://github.com/hasael/aarch64-haskell-base) that uses [Nix](https://nixos.org/).
 
 ---
-Sources: [Jeff Geerling YT video](https://www.youtube.com/watch?v=N4bfNefjBSw) , [Pi Dramble](https://www.pidramble.com/wiki)
+Sources: [Jeff Geerling YT video](https://www.youtube.com/watch?v=N4bfNefjBSw)
