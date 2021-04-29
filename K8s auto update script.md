@@ -49,7 +49,3 @@ aws configure set aws_secret_access_key ${{ secrets.AWS_ACCESS_KEY }}
 aws configure set region eu-west-1
 aws s3 sync ./k8s/ ${{ secrets.K8S_STATE_BUCKET }}
 ```
-
-
----
-#raspberrypi #k8s  #localcluster 
